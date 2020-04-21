@@ -1,0 +1,18 @@
+.gallery figure a{
+  cursor: zoom-in;
+}
+
+.gallery.gallery-with-shadow figure{
+  -webkit-box-shadow: 0px 1px 5px #00000029;;
+-moz-box-shadow: 0px 1px 5px #00000029;
+box-shadow: 0px 1px 5px #00000029;
+}
+
+.gallery figure a:hover{
+  opacity: 0.8;
+}
+
+.gallery.gallery-no-hover a:hover{
+  opacity: 1;
+  cursor: zoom-in;
+}

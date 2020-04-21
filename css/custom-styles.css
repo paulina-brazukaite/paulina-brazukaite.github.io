@@ -1,0 +1,142 @@
+/* ===========================
+ Foodie Portfolio project page
+ ============================*/
+
+.foodie-portfolio .container{
+max-width: 1220px;
+}
+
+.foodie-portfolio h2{
+font-size: 36px;
+}
+
+.foodie-portfolio h3{
+font-size: 24px;
+}
+
+.foodie-portfolio p{
+font-size: 16px;
+line-height: 1.2;
+color: #0F0F0F;
+}
+
+.project-review h3{
+padding-bottom: 10px;
+}
+
+.colour-bg{
+background-color: #f6f6f6;
+}
+
+.colour-bg-pink{
+  background-color: #FBFAFB;
+}
+
+.colour-bg-violet{
+  background-color: #F9FAFF;
+}
+
+.work-section {
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 800px) {
+  .description-space{
+    margin-top: 35px;
+  }
+
+  .work-section {
+    padding: 70px 0px 100px 0px;
+  }
+
+  .mobile-v-img{
+    width: 256px;
+  }
+
+  .mobile-v-space{
+    margin-top: 35px;
+  }
+}
+
+.carousel-container{
+  max-width: 100% !important;
+}
+@media screen and (min-width: 800px) {
+  .carousel-container .carousel-image{
+    max-width: 772px;
+  }
+}
+
+.second-illustration{
+  margin-top: 70px;
+}
+
+@media (min-width: 992px) { 
+  .second-illustration{
+    margin-top: 145px;
+  }
+ }
+
+ .figure-img-foodie{
+  max-width: 450px;
+    max-height: 264px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 1px 5px #00000029;;
+-moz-box-shadow: 0px 1px 5px #00000029;
+box-shadow: 0px 1px 5px #00000029;
+}
+
+.figure-img-trebo {
+  max-width: 308px;
+  max-height: 180px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 1px 5px #00000029;
+  -moz-box-shadow: 0px 1px 5px #00000029;
+  box-shadow: 0px 1px 5px #00000029;
+}
+
+@media (max-width: 576px) { 
+  .figure-img-trebo{
+    max-width: 100%;
+    max-height: 300px;
+  }
+ }
+
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+
+@media (min-width: 992px) { 
+  .trebo-gallery{
+    margin-left: 4%;
+  }
+}
+
+ .grid-item img{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.card-columns .card {
+  border: none;
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+.card-img {
+  border-radius: 0;
+}
+
+.grid-item--width2 { width: 400px; }
+
+.same-size-gallery img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+}
+
+.jink-gallery img{
+  height: 100%;
+  width: 100%;
+}
