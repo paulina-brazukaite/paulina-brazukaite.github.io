@@ -90,30 +90,6 @@ $(window).on('load', function () {
   });
 
 
-
-	/*------------------
-		Popup
-	--------------------*/
-  $('.portfolio-image').magnificPopup({
-    type: 'image',
-    mainClass: 'img-popup-warp',
-    removalDelay: 400,
-  });
-
-
-	/*------------------
-		Accordions
-	--------------------*/
-  $('.panel-link').on('click', function (e) {
-    $('.panel-link').parent('.panel-header').removeClass('active');
-    var $this = $(this).parent('.panel-header');
-    if (!$this.hasClass('active')) {
-      $this.addClass('active');
-    }
-    e.preventDefault();
-  });
-
-
   if ($().circleProgress) {
 
     //Set progress circle 1
@@ -163,4 +139,15 @@ $(function () {
       $("#gallery").fadeTo(300, 1);
     }, 300);
   });
+});
+
+//Scroll
+
+$(document).ready(function () {
+  // Handler for .ready() called.
+  if (location.href.indexOf("#scroll") != -1) {
+    $('html, body').animate({
+      scrollTop: $('#scroll').offset().top
+  }, 1200);
+}
 });
