@@ -279,7 +279,7 @@ ol {
 
 .portfolio-filter {
   list-style: none;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .portfolio-filter li {
@@ -470,9 +470,6 @@ ol {
     color: #333;
     top: 35px;
     display: block;
-  }
-  .header-btn {
-    display: none;
   }
   .section-title {
     font-size: 45px;
